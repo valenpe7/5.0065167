@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/DOI/add_doi.svg)](https://doi.org/add_doi)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5711100.svg)](https://doi.org/add_doi)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/valenpe7/on_the_electromagnetic-electron_rings/master?urlpath=lab/tree/on_the_electromagnetic-electron_rings.ipynb)
 
 # On the electromagnetic-electron rings originating from the interaction of high-power short-pulse laser and underdense plasma
@@ -11,7 +11,7 @@ The analysis is performed using Python 3 programming language and relies on seve
 
 ### How to obtain the data:
 
-Due to its size (-- GB), the raw data used in this work is stored on **Zenodo**. You may download the data as a .zip archive on the following link: https://zenodo.org/record/add_record.
+Due to its size (-- GB), the raw data used in this work is stored on **Zenodo**. You may download the data as a .zip archive on the following link: https://zenodo.org/record/5711101/files/data.zip?download=1.
 
 ### How to obtain the notebook:
 
