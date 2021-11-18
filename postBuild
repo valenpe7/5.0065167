@@ -15,5 +15,8 @@ rm -rf $dir/SDF
 cd $dir
 #wget -O data.zip "https://zenodo.org/record/5711101/files/data.zip?download=1"
 wget -O data.zip "https://github.com/valenpe7/on_the_electromagnetic-electron_rings/archive/refs/heads/master.zip"
+
+sudo apt-get update
+sudo apt-get install p7zip-full
 7z x data.zip -o data
 rm -f $dir/data.zip
