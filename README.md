@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5711100.svg)](https://doi.org/add_doi)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5711100.svg)](https://doi.org/10.5281/zenodo.5711100)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/valenpe7/on_the_electromagnetic-electron_rings/master?urlpath=lab/tree/on_the_electromagnetic-electron_rings.ipynb)
 
 # On the electromagnetic-electron rings originating from the interaction of high-power short-pulse laser and underdense plasma
