@@ -3,8 +3,6 @@
 export LC_ALL=C
 dir=$(pwd)
 
-uname -a
-
 # build SDF library
 mkdir $dir/SDF
 git clone https://github.com/keithbennett/SDF_C.git $dir/SDF/C
@@ -23,6 +21,6 @@ mkdir $dir/7z
 tar -xvf $dir/7z.tar.xz -C $dir/7z 
 rm -rf $dir/7z.tar.xz
 
-$dir/7z/7zz x $dir/data.zip -o $dir/data
+$dir/7z/7zz x $dir/data.zip "-o$dir/data"
 rm -rf $dir/7z
 rm -f $dir/data.zip
