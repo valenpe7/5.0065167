@@ -3,6 +3,8 @@
 export LC_ALL=C
 dir=$(pwd)
 
+uname -a
+
 # build SDF library
 mkdir $dir/SDF
 git clone https://github.com/keithbennett/SDF_C.git $dir/SDF/C
