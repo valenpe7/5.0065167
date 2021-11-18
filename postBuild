@@ -16,9 +16,13 @@ rm -rf $dir/SDF
 # copy data
 cd $dir
 #wget -O data.zip "https://zenodo.org/record/5711101/files/data.zip?download=1"
-wget -O data.zip "https://github.com/valenpe7/on_the_electromagnetic-electron_rings/archive/refs/heads/master.zip"
+wget -O $dir/data.zip "https://github.com/valenpe7/on_the_electromagnetic-electron_rings/archive/refs/heads/master.zip"
 
-apt-get update
-apt-get install p7zip-full
-7z x data.zip -o data
+wget -O $dir/7z.tar.xz https://www.7-zip.org/a/7z2104-linux-x64.tar.xz
+mkdir $dir/7z
+tar -xvf $dir/7z.tar.xz -C $dir/7z 
+rm -rf $dir/7z.tar.xz
+
+$dir/7z/7zz x $dir/data.zip -o $dir/data
+rm -rf $dir/7z
 rm -f $dir/data.zip
