@@ -20,7 +20,7 @@ mkdir $dir/7z
 tar -xvf $dir/7z.tar.xz -C $dir/7z 
 
 # uncompress data
-$dir/7z/7zz x $dir/data.zip "-o$dir/data"
+$dir/7z/7zz x $dir/data.zip "-o$dir"
 
 # clean
 rm -rf $dir/7z.tar.xz
