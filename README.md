@@ -17,15 +17,15 @@ Due to its size (-- GB), the raw data used in this work is stored on **Zenodo**.
 
 The notebook `on_the_electromagnetic-electron_rings.ipynb` is stored in this GitHub repository. You may either download the whole repository as a .zip archive by selecting "Code" and then "Download ZIP", or use `git`:
 
-1. Clone the repository: ``` $> git clone https://github.com/valenpe7/wakefield_polarity_reversal.git ```
+1. Clone the repository: ``` $> git clone https://github.com/valenpe7/on_the_electromagnetic-electron_rings.git ```
 2. Pull in new changes: ``` $> git pull ```
 
 ### How to launch the notebook:
 
 If you have downloaded the notebook and the data and have all the requirements installed on your computer, you may launch the notebook locally. Alternatively, if you do not have installed all the requirements, you may launch the notebook on-line using
-* **Jupyter NBViwever** (non-interactive): https://nbviewer.jupyter.org/github/valenpe7/wakefield_polarity_reversal/blob/main/wakefield_polarity_reversal.ipynb
+* **Jupyter NBViwever** (non-interactive): https://nbviewer.jupyter.org/github/valenpe7/on_the_electromagnetic-electron_rings/blob/main/on_the_electromagnetic-electron_rings.ipynb
 
-* **Binder** (interactive): https://mybinder.org/v2/gh/valenpe7/wakefield_polarity_reversal/main?urlpath=lab/tree/wakefield_polarity_reversal.ipynb
+* **Binder** (interactive): https://mybinder.org/v2/gh/valenpe7/on_the_electromagnetic-electron_rings/main?urlpath=lab/tree/on_the_electromagnetic-electron_rings.ipynb
 
 ### How to cite:
 
