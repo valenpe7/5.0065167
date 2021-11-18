@@ -12,15 +12,17 @@ cd $dir/SDF/utilities ; ./build
 rm -rf $dir/SDF
 
 # copy data
-cd $dir
-#wget -O data.zip "https://zenodo.org/record/5711101/files/data.zip?download=1"
-wget -O $dir/data.zip "https://github.com/valenpe7/on_the_electromagnetic-electron_rings/archive/refs/heads/master.zip"
+wget -O $dir/data.zip "https://zenodo.org/record/5711101/files/data.zip?download=1"
 
+# obtain 7zip
 wget -O $dir/7z.tar.xz https://www.7-zip.org/a/7z2104-linux-x64.tar.xz
 mkdir $dir/7z
 tar -xvf $dir/7z.tar.xz -C $dir/7z 
-rm -rf $dir/7z.tar.xz
 
+# uncompress data
 $dir/7z/7zz x $dir/data.zip "-o$dir/data"
+
+# clean
+rm -rf $dir/7z.tar.xz
 rm -rf $dir/7z
 rm -f $dir/data.zip
