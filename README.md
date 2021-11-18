@@ -1,5 +1,5 @@
 [![DOI](https://zenodo.org/badge/DOI/add_doi.svg)](https://doi.org/add_doi)
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/valenpe7/on_the_electromagnetic-electron_rings/main?urlpath=lab/tree/on_the_electromagnetic-electron_rings.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/valenpe7/on_the_electromagnetic-electron_rings/master?urlpath=lab/tree/on_the_electromagnetic-electron_rings.ipynb)
 
 # On the electromagnetic-electron rings originating from the interaction of high-power short-pulse laser and underdense plasma
 
@@ -23,9 +23,9 @@ The notebook `on_the_electromagnetic-electron_rings.ipynb` is stored in this Git
 ### How to launch the notebook:
 
 If you have downloaded the notebook and the data and have all the requirements installed on your computer, you may launch the notebook locally. Alternatively, if you do not have installed all the requirements, you may launch the notebook on-line using
-* **Jupyter NBViwever** (non-interactive): https://nbviewer.jupyter.org/github/valenpe7/on_the_electromagnetic-electron_rings/blob/main/on_the_electromagnetic-electron_rings.ipynb
+* **Jupyter NBViwever** (non-interactive): https://nbviewer.jupyter.org/github/valenpe7/on_the_electromagnetic-electron_rings/blob/master/on_the_electromagnetic-electron_rings.ipynb
 
-* **Binder** (interactive): https://mybinder.org/v2/gh/valenpe7/on_the_electromagnetic-electron_rings/main?urlpath=lab/tree/on_the_electromagnetic-electron_rings.ipynb
+* **Binder** (interactive): https://mybinder.org/v2/gh/valenpe7/on_the_electromagnetic-electron_rings/master?urlpath=lab/tree/on_the_electromagnetic-electron_rings.ipynb
 
 ### How to cite:
 
