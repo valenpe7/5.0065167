@@ -6,10 +6,9 @@ dir=$(pwd)
 # build SDF library
 mkdir $dir/SDF
 git clone https://github.com/keithbennett/SDF_C.git $dir/SDF/C
-cd $dir/SDF/C ; make 
+$dir/SDF/C/make 
 git clone https://github.com/keithbennett/SDF_utilities.git $dir/SDF/utilities
-cd $dir/SDF/utilities ; ./build
-rm -rf $dir/SDF
+$dir/SDF/utilities/build
 
 # copy data
 wget -O $dir/data.zip "https://zenodo.org/record/5711101/files/data.zip?download=1"
@@ -23,6 +22,4 @@ tar -xvf $dir/7z.tar.xz -C $dir/7z
 $dir/7z/7zz x $dir/data.zip "-o$dir"
 
 # clean
-rm -rf $dir/7z.tar.xz
-rm -rf $dir/7z
-rm -f $dir/data.zip
+rm -rf $dir/SDF $dir/7z.tar.xz $dir/7z $dir/data.zip
