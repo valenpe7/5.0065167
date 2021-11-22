@@ -6,9 +6,10 @@ dir=$(pwd)
 # build SDF library
 mkdir $dir/SDF
 git clone https://github.com/keithbennett/SDF_C.git $dir/SDF/C
-$dir/SDF/C/make 
+cd $dir/SDF/C ; make 
 git clone https://github.com/keithbennett/SDF_utilities.git $dir/SDF/utilities
-$dir/SDF/utilities/build
+cd $dir/SDF/utilities ; ./build
+rm -rf $dir/SDF
 
 # copy data
 wget -O $dir/data.zip "https://zenodo.org/record/5711101/files/data.zip?download=1"
