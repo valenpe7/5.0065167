@@ -3,7 +3,7 @@
 
 # On the electromagnetic-electron rings originating from the interaction of high-power short-pulse laser and underdense plasma
 
-This repository contains supplementary material for the work entitled "*On the electromagnetic-electron rings originating from the interaction of high-power short-pulse laser and underdense plasma*" that has been published in AIP **Physics of Plasmas** (https://doi.org/add_doi).
+This repository contains supplementary material for the work entitled "*On the electromagnetic-electron rings originating from the interaction of high-power short-pulse laser and underdense plasma*" that has been published in AIP **Physics of Plasmas** (https://doi.org/10.1063/5.0065167).
 
 The supplementary material consists of the raw data computed by the **[EPOCH](https://cfsa-pmw.warwick.ac.uk/EPOCH)** code (v4.18-devel) and the **[Jupyter](https://jupyter.org/)** notebook with the set of commands that have been used for developing the analytical model and generating the figures.
 
@@ -29,18 +29,19 @@ If you have downloaded the notebook and the data and have all the requirements i
 
 ### How to cite
 
-Cite as: P. Valenta et al., *Phys. Plasmas* **28**, XXXXXX (2021).
+Cite as: P. Valenta et al., *Phys. Plasmas* **28**, 122104 (2021).
 ```
-@article{doi:10.1103/PhysRevE.102.053216,
-        author = {Valenta, P. and Grittani, G. M. and Lazzarini, C. M. and Klimo, O. and Bulanov, S. V.},
+@article{doi:10.1063/5.0065167,
+        author = {Valenta,P.  and Grittani,G. M.  and Lazzarini,C. M.  and Klimo,O.  and Bulanov,S. V. },
         title = {On the electromagnetic-electron rings originating from the interaction of high-power short-pulse laser and underdense plasma},
         journal = {Physics of Plasmas},
         volume = {28},
-        issue = {12},
-        pages = {XXXXXX},
+        number = {12},
+        pages = {122104},
         year = {2021},
-        doi = {add_doi},
-        url = {https://link.aps.org/doi/add_doi}
+        doi = {10.1063/5.0065167},
+        URL = {https://doi.org/10.1063/5.0065167},
+        eprint = {https://doi.org/10.1063/5.0065167}
 }
 ```
 
