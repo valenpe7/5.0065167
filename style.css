@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    font-family: monospace;
+    background-color: rgb(0, 0, 0);
+}
+
+#container {
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+}
+
+#c {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    outline-style: none;
+}
+
+#text {
+    color: aqua;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#vrmode.off {
+    font-weight: bold;
+    color: #ee4646;
+}
+
+#vrmode.on {
+    font-weight: bold;
+    color: #9ae60e;
+}
+
+#vrmode.unsupported {
+    font-size: 0.8em;
+    color: #ee4646;
+}
+
+h2 {
+    font-weight: 300;
+}
+
+.description {
+    font-size: 0.8em;
+}
+
+.viewport-name {
+    color: aqua;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.7em;
+    font-weight: 300;
+    position: absolute;
+    bottom: -2.5em;
+    right: -2.5em;
+    margin: 0.5em;
+}
+
+.border {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    position: absolute;
+    border: 2.5em solid;
+    border-image: url("svg/border.svg") 50 round;
+}
+
+#eli-logo {
+    width: 7vw;
+    height: auto;
+    position: absolute;
+    left: 1vw;
+    bottom: 2vh;
+    z-index: 1;
+}
+
+#eli-progress-loader {
+    z-index: 2;
+    position: fixed;
+    left: 50vw;
+    bottom: 50vh;
+    height: auto;
+    width: auto;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    transform: translate(-50%, 50%);
+}
+
+#svg-loader {
+    width: 8vh; 
+}
+
+#gui {
+    position: absolute;
+    top: 2px;
+    left: 2px
+}
+
+.axis .tick text,
+.axis-text {
+    fill: aqua;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1em;
+}
+
+.legend-title,
+.graph-title {
+    fill: aqua;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8em;
+}
+
+.axis line,
+.axis path {
+    stroke: aqua;
+}
+
+.grid line,
+.displacement-gridline {
+    stroke: rgb(125, 192, 193);
+    stroke-width: 1;
+    stroke-opacity: 0.2;
+    shape-rendering: crispEdges;
+}
+
+.displacement {
+    stroke: aqua;
+    stroke-width: 1;
+}
+
+a {
+    color: aqua;
+}
