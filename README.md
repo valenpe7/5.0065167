@@ -51,4 +51,4 @@ This work was supported by ERDF (CZ.02.1.01/0.0/0.0/15_003/0000449), MEYS ("e-IN
 
 ---
 
-In case of any questions, please contact the corresponding author or submit an **[issue](https://github.com/valenpe7/on_the_electromagnetic-electron_rings/issues)** to this GitHub project repository.
+In case of any questions, please contact the corresponding author or submit an **[issue](https://github.com/valenpe7/5.0065167/issues)** to this GitHub project repository.
