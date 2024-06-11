@@ -3,11 +3,11 @@
 
 # On the electromagnetic-electron rings originating from the interaction of high-power short-pulse laser and underdense plasma
 
-This repository contains supplementary material for the work entitled "*On the electromagnetic-electron rings originating from the interaction of high-power short-pulse laser and underdense plasma*" that has been published in AIP **Physics of Plasmas** (https://doi.org/10.1063/5.0065167).
+This repository contains supplementary material for the paper P. Valenta et al., "On the electromagnetic-electron rings originating from the interaction of high-power short-pulse laser and underdense plasma", *Physics of Plasmas* **28**, 122104 (2021); [https://doi.org/10.1063/5.0065167](https://doi.org/10.1063/5.0065167).
 
-The supplementary material consists of the raw data computed by the **[EPOCH](https://cfsa-pmw.warwick.ac.uk/EPOCH)** code (v4.18-devel) and the **[Jupyter](https://jupyter.org/)** notebook with the set of commands that have been used for developing the analytical model and generating the figures.
+The supplementary material consists of the raw data and the **[Jupyter](https://jupyter.org/)** notebook with the set of commands that have been used for generating figures.
 
-The analysis is performed using Python 3 programming language and relies on several Python packages: [numpy](https://github.com/numpy/numpy), [scipy](https://github.com/scipy/scipy), [matplotlib](https://github.com/matplotlib/matplotlib), [sympy](https://github.com/sympy/sympy), and [sdf](https://github.com/keithbennett/SDF).
+The analysis is performed using Python programming language and relies on several Python packages (see the `requirements.txt` file).
 
 ### How to obtain the data
 
