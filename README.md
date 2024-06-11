@@ -1,5 +1,5 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5711100.svg)](https://doi.org/10.5281/zenodo.5711100)
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/valenpe7/on_the_electromagnetic-electron_rings/master?urlpath=lab/tree/on_the_electromagnetic-electron_rings.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/valenpe7/5.0065167/master?urlpath=lab/tree/on_the_electromagnetic-electron_rings.ipynb)
 
 # On the electromagnetic-electron rings originating from the interaction of high-power short-pulse laser and underdense plasma
 
@@ -17,15 +17,15 @@ The raw data used in this work are openly available in a **Zenodo** repository. 
 
 The notebook `on_the_electromagnetic-electron_rings.ipynb` is stored in this GitHub repository. You may either download the whole repository as a .zip archive by selecting "Code" and then "Download ZIP", or use `git`:
 
-1. Clone the repository: ``` $> git clone https://github.com/valenpe7/on_the_electromagnetic-electron_rings.git ```
+1. Clone the repository: ``` $> git clone https://github.com/valenpe7/5.0065167.git ```
 2. Pull in new changes: ``` $> git pull ```
 
 ### How to launch the notebook
 
 If you have downloaded the notebook and the data and have all the requirements installed on your computer, you may launch the notebook locally. Alternatively, if you do not have installed all the requirements, you may launch the notebook on-line using
-* **Jupyter NBViwever** (non-interactive): https://nbviewer.jupyter.org/github/valenpe7/on_the_electromagnetic-electron_rings/blob/master/on_the_electromagnetic-electron_rings.ipynb
+* **Jupyter NBViwever** (non-interactive): https://nbviewer.jupyter.org/github/valenpe7/5.0065167/blob/master/on_the_electromagnetic-electron_rings.ipynb
 
-* **Binder** (interactive): https://mybinder.org/v2/gh/valenpe7/on_the_electromagnetic-electron_rings/master?urlpath=lab/tree/on_the_electromagnetic-electron_rings.ipynb
+* **Binder** (interactive): https://mybinder.org/v2/gh/valenpe7/5.0065167/master?urlpath=lab/tree/on_the_electromagnetic-electron_rings.ipynb
 
 ### How to cite
 
