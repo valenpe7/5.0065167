@@ -12,7 +12,7 @@ The analysis is performed using Python programming language and relies on severa
 
 ### How to obtain the data
 
-The raw data used in this work are openly available in a **Zenodo** repository. You may download the data as a .zip archive (8.7 GB) on the following link: https://zenodo.org/record/5711101/files/data.zip?download=1.
+The raw data used in this work are openly available in a **[Zenodo](https://zenodo.org/records/5711101)** repository. You may download the data as a .zip archive (8.7 GB) on the following link: https://zenodo.org/record/5711101/files/data.zip?download=1.
 
 ### How to obtain the notebook
 
