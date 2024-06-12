@@ -1,4 +1,5 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5711100.svg)](https://doi.org/10.5281/zenodo.5711100)
+[![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/valenpe7/5.0065167/blob/master/on_the_electromagnetic-electron_rings.ipynb)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/valenpe7/5.0065167/master?urlpath=lab/tree/on_the_electromagnetic-electron_rings.ipynb)
 
 # On the electromagnetic-electron rings originating from the interaction of high-power short-pulse laser and underdense plasma
