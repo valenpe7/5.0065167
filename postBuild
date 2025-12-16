@@ -3,30 +3,24 @@
 set -ex
 export LC_ALL=C
 
-#sudo apt-get install unzip
-
 dir=$(pwd)
 
 # build SDF library
 mkdir $dir/SDF
-git clone https://github.com/keithbennett/SDF_C.git $dir/SDF/C
-cd $dir/SDF/C ; make 
-git clone https://github.com/keithbennett/SDF_utilities.git $dir/SDF/utilities
-cd $dir/SDF/utilities ; ./build
+wget -q -O $dir/SDF/C.tar.gz "https://github.com/epochpic/SDF_C/archive/refs/tags/v14.4.10.tar.gz" 
+mkdir $dir/SDF/C
+tar -C $dir/SDF/C --strip-components=1 -xzf $dir/SDF/C.tar.gz
+rm -f $dir/SDF/C.tar.gz
+cd $dir/SDF/C ; make
+wget -q -O $dir/SDF/utilities.tar.gz "https://github.com/epochpic/SDF_utilities/archive/refs/tags/v2.6.15.tar.gz"
+mkdir $dir/SDF/utilities
+tar -C $dir/SDF/utilities --strip-components=1 -xzf $dir/SDF/utilities.tar.gz
+rm -f $dir/SDF/utilities.tar.gz
+cd $dir/SDF/utilities ; ./build.sh
 rm -rf $dir/SDF
 
 # copy data
-wget -O $dir/data.zip "https://zenodo.org/record/5711101/files/data.zip?download=1"
-
-# obtain 7zip
-#wget -O $dir/7z.tar.xz https://github.com/ip7z/7zip/releases/download/25.01/7z2501-linux-x64.tar.xz
-#mkdir $dir/7z
-#tar -xvf $dir/7z.tar.xz -C $dir/7z 
-
-# uncompress data
-#$dir/7z/7zz x $dir/data.zip "-o$dir"
-
-unzip $dir/data.zip -d $dir
-
-# clean
-rm -rf $dir/SDF $dir/7z.tar.xz $dir/7z $dir/data.zip
+cd $dir
+wget -q -O data.zip "https://zenodo.org/record/5711101/files/data.zip?download=1" 
+unzip data.zip
+rm -f $dir/data.zip
